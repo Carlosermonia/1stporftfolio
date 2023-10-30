@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color:  rgb(44, 44, 98);
+
+    
+}
+.hero:hover{
+    color: rgb(230,104,59);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 0%;
+     padding-right: 10%;
+}
+
+nav ul li {
+   list-style-type: none;
+    display: inline-block;
+    padding: 5px 25px;
+}
+
+nav ul li a{
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.content{
+       position: absolute;
+       top: 50%;
+       left: 8%;
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 25px;
+}
+h3{
+    color: rgb(206, 24, 24);
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+p{
+    color: white;
+}
+
+.image{
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img {
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+
+.about{
+   width: 100%;
+   padding: 100px 0px;
+   background-color: rgb(44, 44, 98);
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+span{
+    color: rgb(230,104,59);
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.service{
+    background-color:  rgb(44, 44, 98);
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400spx;
+
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px ;
+    background: indigo;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(230,104,59);
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra li{
+    color: #fcfc;
+}
+.pra p{
+   color: #fcfc;
+   font-size: 16px;
+   line-height: 27px;
+   margin-bottom: 25px;
+}
+.card .button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+section{
+    padding: 40px 15%;
+}
+.contacts{
+  background: rgb(44, 44, 98);
+  height: 60%;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  grid-gap: 6rem;
+}
+.contact-img{
+    max-width: 100%;
+    width: 800px;
+    height: 100;
+    border-radius: 10px;
+    padding-left: 20%;
+    padding-bottom: 10%;
+}
+.contact-form h1{
+   font-size: 80px;
+   color: #fff;
+   margin-bottom: 20px;
+}
+.contact-form p{
+    color: #c6c9d8bf;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+.contact-form form{
+    position: relative;
+}
+.contact-form form input,form textarea{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: whitesmoke;
+    color: black;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+.contact-form form .btn{
+    display: inline-block;
+    background: #f9004d;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.contact-form form .btn:hover{
+    border: 2px solid #f9004d;
+    background: transparent;
+    transform: scale(1.1);
+}
